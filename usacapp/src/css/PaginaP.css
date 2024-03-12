@@ -1,0 +1,131 @@
+.imgUsac{
+    width: auto;
+    height: 90px;
+    padding: 0px 15px 0px 0px;
+}
+body{
+    background-color: #89B0F7;
+}
+.center{
+    text-align: center;
+    height: 500px;
+    padding: 20px 0px;
+}
+.container_fondo{
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.1),rgba(5, 7, 12, 0.75)),
+    url("../imgs/Usac_logo.png") no-repeat center
+    center fixed;
+    background-size: cover;
+}
+.fondo{
+    background-color: #ffff;
+    border-radius: 20px;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/ 9%);
+}
+#titulo{
+    font-family: fantasy;
+    padding: 20px 0px 0px 0px;
+}
+#facultad{
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+h3{
+    padding: 0px 0px 15px 0px;
+}
+p{
+    font-family: cursive;
+    text-align: justify;
+    font-size: 22px;
+
+}
+
+.dropMen{
+    border-radius: 10px;
+}
+.links{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.parrafoInicio{
+    padding: 10px 20px 30px 20px;
+}
+
+/* AQUI EMPIEZA MIPERFIL */
+.form-Perfil{
+    padding: 50px 50px;
+    background-color: #ffff;
+    border-radius: 25px 100px 25px 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fondo-form-perfil{
+    padding: 100px 0px 80px 0px;
+}
+
+.lblEstado {
+    font-size: 18px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.lbl{
+
+    padding: 30px 0px;
+}
+
+.form-control{
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+    color: #ffff;
+}
+
+
+
+/* AQUI EMPIEZA Testimonios */
+.contenedor-testimonio{
+    width: 1170px;
+    border-radius: 20px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 25px 15px 5px rgb(0 0 0/ 80%);
+}
+.imagen-testimonio{
+    width: auto;
+    height: 80%;
+    padding: 0px 0px 0px 20px;
+}
+
+.contenedor-texto-testimonio{
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.nombre-testimonio{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.texto-testimonio{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.contenedor-principal{
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
