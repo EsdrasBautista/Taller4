@@ -9,7 +9,7 @@ body{
 .center{
     text-align: center;
     height: 500px;
-    padding: 20px 0px;
+    padding: 95px 0px;
 }
 .container_fondo{
     min-height: 100vh;
@@ -21,7 +21,7 @@ body{
 .fondo{
     background-color: #ffff;
     border-radius: 20px;
-    box-shadow: 0 3px 13px 1px rgb(0 0 0/ 9%);
+    box-shadow: 0 25px 15px 5px rgb(0 0 0/ 80%);
 }
 #titulo{
     font-family: fantasy;
@@ -60,6 +60,8 @@ p{
     border-radius: 25px 100px 25px 100px;
     justify-content: center;
     text-align: center;
+    box-shadow: 0 25px 15px 5px rgb(0 0 0/ 80%);
+
 }
 
 .fondo-form-perfil{
